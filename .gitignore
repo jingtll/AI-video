@@ -1,0 +1,28 @@
+# Python runtime and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# JavaScript dependencies
+node_modules/
+
+# Credentials and machine-local settings
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Generated media and preview artifacts
+renders/
+snapshots/
+assets/voice/
+assets/bgm/
+assets/sfx/
+audio_meta.json
+caption_groups.json
+caption-overrides.json
+compositions/captions.html
+*.log
